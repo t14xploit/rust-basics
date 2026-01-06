@@ -100,7 +100,7 @@ fn hello() -> u16{
 fn print_name(name: String){
     println!("{}", name);
 }
-*/
+
 
 //tests:
 
@@ -122,3 +122,13 @@ fn test(name) {
     println!("{}", name);
 }
 test("bee");
+*/
+
+
+//loops
+fn main(){
+    loop {
+        println!("TryHackMe Rocks!");
+        break;
+    }
+}
