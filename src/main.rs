@@ -56,7 +56,7 @@ fn main() {
 
 //Constants can only be constant, they cannot be set to a function call or any other value that may change at runtime.
 
-const HUNDRED_THOUSAND: u32 = 100_000;
+/*const HUNDRED_THOUSAND: u32 = 100_000;
 
 
 //Notice how in Rust, we can use the _ character to denote a space in number without it affecting the value itself. This is purely for readability.
@@ -89,3 +89,36 @@ fn hello() -> u16{
     println!("hello!");
     6
 }
+
+//returns 6
+
+//Our main function does not return anything, which is the way it should be.
+
+
+//arguments
+
+fn print_name(name: String){
+    println!("{}", name);
+}
+*/
+
+//tests:
+
+//Question 1
+
+fn hello(){
+    8172192: u16;
+}
+
+//Question 2
+
+fn return(){
+    6;
+}
+
+//Question 3
+
+fn test(name) {
+    println!("{}", name);
+}
+test("bee");
