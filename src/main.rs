@@ -47,3 +47,45 @@ fn main() {
 
 //error
 */ 
+
+
+
+
+//Constants
+
+
+//Constants can only be constant, they cannot be set to a function call or any other value that may change at runtime.
+
+const HUNDRED_THOUSAND: u32 = 100_000;
+
+
+//Notice how in Rust, we can use the _ character to denote a space in number without it affecting the value itself. This is purely for readability.
+
+
+// name a constant in all uppercase.
+
+
+
+//shadowing
+
+fn main(){
+    let x = 6;
+    let x = x + 1;
+    println!("{}", x)
+}
+
+
+
+// exercise
+let mut tryhackme: u32 = 9;
+
+
+//Every binary file written in Rust needs a main file, and every main file needs a main function.
+
+
+
+//function 
+fn hello() -> u16{
+    println!("hello!");
+    6
+}
