@@ -157,3 +157,12 @@ fn main() {
 }
 
 //the a.iter we turn a into an iterable
+
+
+
+
+//zero cost abstractions
+let a = vec![1, 2, 3];
+a.iter()
+.map(|&i| i * i
+.sum()
