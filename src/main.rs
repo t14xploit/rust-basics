@@ -166,3 +166,14 @@ let a = vec![1, 2, 3];
 a.iter()
 .map(|&i| i * i
 .sum()
+
+
+//if statements
+
+let var =  6;
+if var == 6{
+    println!("oh no the var is 6");
+}
+else {
+    println!("yay the var isn't 6");
+}
