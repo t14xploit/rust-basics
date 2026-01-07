@@ -122,7 +122,7 @@ fn test(name) {
     println!("{}", name);
 }
 test("bee");
-*/
+*
 
 
 //loops
@@ -196,3 +196,29 @@ if var == 15 {
     println!("it is not 15");
     10;
 };
+
+
+fn func() -> i32 {
+    9
+} */
+
+fn main() {
+    // compute a value using a function
+    let var = 6 + func();
+    println!("var = {}", var);
+
+    // assign from an `if` expression — both branches return the same type (i32)
+    let result: i32 = if var == 6 { 15 } else { 200 };
+    println!("result = {}", result);
+
+    // branches can be blocks with side effects; the block's last expression (no semicolon)
+    // is the value returned by the block
+    let output: i32 = if var == 15 {
+        println!("it is 15");
+        9 // no semicolon here — this value is returned from the block
+    } else {
+        println!("it is not 15");
+        10 // no semicolon
+    };
+    println!("output = {}", output);
+}
