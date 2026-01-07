@@ -177,3 +177,22 @@ if var == 6{
 else {
     println!("yay the var isn't 6");
 }
+
+
+
+//assigning to a variable based on an if statement
+fn func() -> i8{
+9
+}
+
+let var = 6 + func();
+
+let result = if var == 6 {15} else {200};
+let output =
+if var == 15 {
+    println!("it is 15");
+    9;
+}else {
+    println!("it is not 15");
+    10;
+};
